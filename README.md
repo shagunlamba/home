@@ -1,3 +1,5 @@
+Deployed Link: https://shagunlamba.github.io/home/ .
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
