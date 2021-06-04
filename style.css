@@ -19,7 +19,7 @@ nav {
 /* Header */
 .header-wraper {
   position: relative;
-  background-image: url(img2.jpg);
+  /* background-image: url(img2.jpg); */
   background-size: cover;
   background-position: cover;
   height: 100vh;
@@ -46,7 +46,7 @@ nav {
   font-family: sans-serif;
   letter-spacing: -1px;
   font-size: 4em;
-  color: #93329e;
+  color: #93329E;
   position: relative;
   bottom: 5%;
 }
