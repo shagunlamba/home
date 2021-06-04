@@ -19,7 +19,7 @@ nav {
 /* Header */
 .header-wraper {
   position: relative;
-  /* background-image: url(img2.jpg); */
+  background-image: url(./assets/img2.jpg);
   background-size: cover;
   background-position: cover;
   height: 100vh;
@@ -41,12 +41,10 @@ nav {
 }
 
 .main-info h1 {
-  /* 93329e */
-  /* // ffe3fe */
   font-family: sans-serif;
   letter-spacing: -1px;
   font-size: 4em;
-  color: #93329E;
+  color: #fafafa;
   position: relative;
   bottom: 5%;
 }
@@ -104,7 +102,8 @@ nav {
   transition: all 0.5s;
 }
 .social-icons:hover {
-  color: black !important;
+  /* color: black !important; */
+  font-size: 4em !important;
 }
 
 /* About section */
@@ -113,7 +112,7 @@ nav {
   text-align: center;
   padding: 2rem;
   z-index: 2;
-  background-color: #ffe3fe;
+  background-color: #fafafa;
   padding-bottom: 5rem;
 }
 
@@ -126,21 +125,29 @@ nav {
   cursor: pointer;
   color: white !important;
   border: 1px solid black !important;
-  transition: all 1s !important;
+  transition: all 0.5s !important;
   padding-left: 2em !important;
   padding-right: 2em !important;
   /* padding-t: ; */
 }
 .btn:hover {
-  background-color: #cb7bd4;
-  color: white !important;
+  background-color: #343a40;
+  border-color: #343a40;
+}
+
+.btn a{
+  color: #000000;
+}
+
+.btn a:hover{
+  color: #ffffff !important;
 }
 
 /* Skills */
 
 .skills {
   padding: 2em;
-  background-color: #b4aee8;
+  background-color: #fafafa;
 }
 .skills h1 {
   padding: 1em;
@@ -167,6 +174,7 @@ nav {
 footer {
   padding: 5em;
   background-color: #ffe3fe;
+  background-color: #fbaccc;
   text-align: center;
 }
 footer h1 {

@@ -2,6 +2,9 @@ import React from 'react';
 // importing fontAwesome
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
+
+import Resume from '../assets/Shagun Lamba-Resume.pdf';
+
 function Navbar(){
 	return <div>
             <nav className="navbar navbar-expand-lg navbar-light bg-light fixed-top">
@@ -20,7 +23,7 @@ function Navbar(){
                     <a className="nav-link" href="#projects">Projects</a>
                 </li>
                 <li className="nav-item active px-2">
-                    <a className="nav-link" href="./Shagun_Resume .pdf">Resume</a>
+                    <a className="nav-link" href={Resume} target="blank">Resume</a>
                 </li>
                 <li className="nav-item active px-2">
                     <a className="nav-link" href="#skills">Skills</a>

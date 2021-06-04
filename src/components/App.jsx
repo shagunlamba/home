@@ -5,7 +5,8 @@ import Header from './Header.jsx';
 import Particles from 'react-particles-js';
 import AboutMe from './AboutMe.jsx';
 import Skills from './Skills';
-import CurrentSkills from './currentSkills';
+import Project from './Project';
+
 function App(){
 	return <div>
 	<Particles className="particles-canvas" params= {
@@ -32,8 +33,8 @@ function App(){
 	<Navbar />
 	<Header />
 	<AboutMe />
+	<Project />
 	<Skills />
-	<CurrentSkills />
 	<Footer />
 	</div>
 }
